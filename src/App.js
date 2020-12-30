@@ -61,7 +61,8 @@ function App(props) {
 		// Once you pressed 'START' element moves down
 		setTimeout(() => {
 			dispatch({ type: 'MOVE', newPos_x: 0, newPos_y: 1 })
-		}, 500)
+    }, 500)
+    
 	}, [])
 
   return (
